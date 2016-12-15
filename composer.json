@@ -1,0 +1,17 @@
+{
+    "name": "garam/jandi-msg-send",
+    "description": "Jandi messanger php library",
+    "authors": [
+        {
+            "name": "garam",
+            "email": "me@garam.xyz"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "3nr1c/structure": "^0.5.2"
+    },
+    "autoload": {
+        "psr-4": {"Garam\\Jandi\\": "src/"}
+    }
+}
